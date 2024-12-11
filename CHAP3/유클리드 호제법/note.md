@@ -26,4 +26,6 @@ A,B가 차이가 나지 않는다면, 나머지가 감소하는 속도는 그리
 
 ### 활용!
 - N개의 수의 최대공약수 구하기
-- N개의 수의 최소공배수 구하기
+- N개의 수의 최소공배수 구하기  
+  * 🎱 $\text{lcm}(a, b, c) = \text{lcm}(\text{lcm}(a, b), c)$  
+  * 🎱 $\text{lcm}(a, b) = \frac{a \times b}{\text{gcd}(a, b)}$
